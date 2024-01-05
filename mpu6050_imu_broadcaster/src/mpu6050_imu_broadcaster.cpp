@@ -89,7 +89,7 @@ return_type MPU6050Hardware::read(const rclcpp::Time & /*time*/, const rclcpp::D
 	return return_type::OK;
 }
 
-} // namespace lidarbot_bringup
+} // namespace mpu6050_imu_broadcaster
 
 #include "pluginlib/class_list_macros.hpp"
 
